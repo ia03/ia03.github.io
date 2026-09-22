@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 655, in <module>
+    main()
+  File "/work/solve.py", line 630, in main
+    result, sim = rollout(params)
+                  ^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 250, in rollout
+    result = evaluate_trace(sim)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 200, in evaluate_trace
+    settle_posture_progress = 0.5 * max(0.0, min(1.0, min_pelvis_z / 0.75)) + 0.5 * max(0.0, min(1.0, min_torso_up / 0.78))
+                                                      ^^^^^^^^^^^^
+NameError: name 'min_pelvis_z' is not defined

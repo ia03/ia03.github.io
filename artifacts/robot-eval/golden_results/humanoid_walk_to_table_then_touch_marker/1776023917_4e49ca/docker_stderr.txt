@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 652, in <module>
+    main()
+  File "/work/solve.py", line 628, in main
+    current_score = witness_score(result)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 342, in witness_score
+    posture_term = 0.9 * result.settle_posture_progress
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EvalResult' object has no attribute 'settle_posture_progress'

@@ -1,0 +1,11 @@
+yaw0: final_z=0.5849 contacts=[None, None, None, None, None, None, None, None] q_lift=[-0.    -0.106  0.    -1.5    0.     1.393  0.785]
+yaw90: final_z=0.5851 contacts=[None, None, None, None, None, None, None, None, None, None] q_lift=[ 0.27  -0.11  -0.246 -1.499 -0.027  1.393 -0.764]
+yaw45: final_z=0.5864 contacts=[None, None, None, None, None, None] q_lift=[-1.195 -0.231  1.012 -1.495  0.2    1.374 -0.156]
+yawm45: final_z=0.5852 contacts=[None, None, None, None, None, None, None, None] q_lift=[-0.182 -0.108  0.166 -1.5    0.018  1.393  1.557]
+yaw180: final_z=0.5865 contacts=[None, None, None, None, None, None, None, None, None, None] q_lift=[-0.898 -0.159  0.793 -1.498  0.115  1.387 -2.446]
+best {'z': 0.601153902252216, 'label': 'yaw45-lift-53'}
+AttemptResult(name='yaw0', max_cup_z=0.5865091647295626, final_cup_z=0.584928915005489, held_steps=100, best_label='yaw0-post-14')
+AttemptResult(name='yaw90', max_cup_z=0.5867643600184431, final_cup_z=0.5851204980188389, held_steps=100, best_label='yaw90-post-13')
+AttemptResult(name='yaw45', max_cup_z=0.601153902252216, final_cup_z=0.5863583261720086, held_steps=100, best_label='yaw45-lift-53')
+AttemptResult(name='yawm45', max_cup_z=0.601153902252216, final_cup_z=0.5852492959028504, held_steps=100, best_label='yaw45-lift-53')
+AttemptResult(name='yaw180', max_cup_z=0.601153902252216, final_cup_z=0.5864763244914356, held_steps=100, best_label='yaw45-lift-53')

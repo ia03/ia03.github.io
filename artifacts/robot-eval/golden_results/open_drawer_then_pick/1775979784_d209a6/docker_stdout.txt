@@ -1,0 +1,10 @@
+attempt baseline
+saved {'score': 2.636, 'drawer_before_lift': 0.0, 'final_drawer': 0.0, 'max_block_z': 0.461, 'final_block_z': 0.461, 'contact': 0.0, 'success': False}
+metrics baseline {'replay_steps': 2230, 'drawer_before_lift': 0.0, 'final_drawer': 0.0, 'max_block_z': 0.461, 'final_block_z': 0.461, 'contact': 0.0, 'success': False, 'score': 2.636}
+attempt deeper_grasp
+saved {'score': 2.636, 'drawer_before_lift': 0.0, 'final_drawer': 0.0, 'max_block_z': 0.461, 'final_block_z': 0.461, 'contact': 0.0, 'success': False}
+metrics deeper_grasp {'replay_steps': 2360, 'drawer_before_lift': 0.0, 'final_drawer': 0.0, 'max_block_z': 0.461, 'final_block_z': 0.461, 'contact': 0.0, 'success': False, 'score': 2.636}
+attempt higher_lift
+saved {'score': 2.636, 'drawer_before_lift': 0.0, 'final_drawer': 0.0, 'max_block_z': 0.461, 'final_block_z': 0.461, 'contact': 0.0, 'success': False}
+metrics higher_lift {'replay_steps': 2290, 'drawer_before_lift': 0.0, 'final_drawer': 0.0, 'max_block_z': 0.461, 'final_block_z': 0.461, 'contact': 0.0, 'success': False, 'score': 2.636}
+best Metrics(replay_steps=2230, max_drawer_before_lift=0.0, final_drawer=0.0, max_block_z=0.46135071530020194, final_block_z=0.46133154268000026, settle_contact_fraction=0.0)

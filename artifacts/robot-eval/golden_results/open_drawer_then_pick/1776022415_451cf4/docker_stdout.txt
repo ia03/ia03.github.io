@@ -1,0 +1,8 @@
+after open 0.16258499372728225 [0.61968693 0.03976542 0.48111336]
+DOWN off=(0.0, 0.0) grasp=0.035 lift=0.58 -> z=0.524 contact=True drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.035 lift=0.60 -> z=0.543 contact=True drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.035 lift=0.62 -> z=0.563 contact=True drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.035 lift=0.64 -> z=0.583 contact=True drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.035 lift=0.66 -> z=0.600 contact=True drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.035 lift=0.68 -> z=0.613 contact=True drawer=0.163
+SUCCESS DOWN (0.0, 0.0) 0.035 0.68 0.6125975141044729 0.16258397932816554

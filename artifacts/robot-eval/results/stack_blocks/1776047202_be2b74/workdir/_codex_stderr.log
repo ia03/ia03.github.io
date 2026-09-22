@@ -1,0 +1,24 @@
+Reading additional input from stdin...
+2026-04-13T02:32:17.654415Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:32:51.463301Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:33:30.040673Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:33:39.886749Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:33:58.794685Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:34:13.365940Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:34:36.732240Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:35:03.383904Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:35:39.511501Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:36:00.373153Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:36:39.299263Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:36:55.045742Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:37:41.236355Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:37:55.945993Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:38:36.041728Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:38:49.513959Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:39:04.912308Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:39:29.126306Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:39:47.340926Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:40:06.884481Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:41:02.249453Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:41:17.838895Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2
+2026-04-13T02:41:40.399997Z ERROR codex_models_manager::manager: failed to renew cache TTL: trailing characters at line 726 column 2

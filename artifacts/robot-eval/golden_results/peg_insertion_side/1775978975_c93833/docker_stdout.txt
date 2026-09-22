@@ -1,0 +1,7 @@
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+<__main__.AttemptResult object at 0x7956372e1950>
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+<__main__.AttemptResult object at 0x7956341bfa10>
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+<__main__.AttemptResult object at 0x795636aa5050>
+best <__main__.AttemptResult object at 0x7956372e1950>

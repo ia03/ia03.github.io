@@ -1,0 +1,184 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poker Eval</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <a class="top-nav-link" href="https://ibrahimahmed.ca/evals/">← All evals</a>
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" id="heroEyebrow">LLM Poker Benchmark</p>
+          <h1>Poker Eval</h1>
+          <p class="hero-subtitle">
+            Models are asked to write a poker bot under a fixed time limit, then each bot is
+            evaluated across thousands of duplicated Texas hold'em hands against the same frozen
+            benchmark opponents. The goal is to measure coding ability, strategic quality, and
+            consistency across repeated attempts.
+          </p>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel panel-wide collapsible-panel">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Methodology</p>
+              <h2>What This Benchmark Measures</h2>
+            </div>
+            <button class="panel-toggle" type="button" aria-expanded="true">Collapse</button>
+          </div>
+          <div class="panel-body">
+            <div id="methodologySection"></div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide collapsible-panel">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Leaderboard</p>
+              <h2>Model Scores</h2>
+            </div>
+            <p class="panel-note" id="poolMeta"></p>
+            <button class="panel-toggle" type="button" aria-expanded="true">Collapse</button>
+          </div>
+          <div class="panel-body">
+            <div id="summaryTable"></div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide collapsible-panel">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Consistency</p>
+              <h2>Attempt Distribution by Model</h2>
+            </div>
+            <p class="panel-note">
+              Each row shows the five attempt scores for a model on the same horizontal scale.
+              The darker marker is the median.
+            </p>
+            <button class="panel-toggle" type="button" aria-expanded="true">Collapse</button>
+          </div>
+          <div class="panel-body">
+            <div id="distributionChart"></div>
+            <div id="chartTooltip" class="chart-tooltip" hidden></div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide collapsible-panel">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Attempts</p>
+              <h2>Attempt Table</h2>
+            </div>
+            <button class="panel-toggle" type="button" aria-expanded="true">Collapse</button>
+          </div>
+          <div class="panel-body">
+            <div id="attemptTable"></div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide collapsible-panel" id="trajectoryExplorer">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Build Transcript</p>
+              <h2>How Each Bot Was Built</h2>
+            </div>
+            <div class="control-row">
+              <label>
+                Attempt
+                <select id="attemptSelect"></select>
+              </label>
+              <label>
+                Bubble type
+                <select id="eventTypeSelect">
+                  <option value="all">All</option>
+                  <option value="prompt">Prompt</option>
+                  <option value="message">Agent Messages</option>
+                  <option value="command">Commands</option>
+                  <option value="file_change">File Changes</option>
+                  <option value="error">Errors</option>
+                </select>
+              </label>
+            </div>
+            <button class="panel-toggle" type="button" aria-expanded="true">Collapse</button>
+          </div>
+          <div class="panel-body">
+            <div class="timeline-shell">
+              <aside class="timeline-mini" id="attemptMiniMap"></aside>
+              <div class="bubble-stream" id="bubbleStream"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide collapsible-panel" data-collapsed="true">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Opponent Breakdown</p>
+              <h2>Score Against Each Benchmark Opponent</h2>
+            </div>
+            <button class="panel-toggle" type="button" aria-expanded="false">Expand</button>
+          </div>
+          <div class="panel-body">
+            <div id="pairMatrix"></div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide collapsible-panel">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Why The Scores Differ</p>
+              <h2>What The Better Bots Are Doing</h2>
+            </div>
+            <button class="panel-toggle" type="button" aria-expanded="true">Collapse</button>
+          </div>
+          <div class="panel-body">
+            <div id="qualitativeAnalysis"></div>
+          </div>
+        </section>
+
+        <section class="panel panel-wide collapsible-panel">
+          <div class="panel-head">
+            <div>
+              <p class="kicker">Hand Replay</p>
+              <h2>Sample Match Replay</h2>
+            </div>
+            <div class="control-row">
+              <label>
+                Matchup
+                <select id="replaySelect"></select>
+              </label>
+              <label>
+                Hand
+                <select id="handSelect"></select>
+              </label>
+            </div>
+            <button class="panel-toggle" type="button" aria-expanded="true">Collapse</button>
+          </div>
+          <div class="panel-body">
+            <div class="replay-shell">
+              <div class="poker-table">
+                <div class="table-felt"></div>
+                <div class="player-seat top-seat" id="topSeat"></div>
+                <div class="board" id="boardState"></div>
+                <div class="player-seat bottom-seat" id="bottomSeat"></div>
+              </div>
+              <div class="replay-controls">
+                <button id="prevStep">Prev</button>
+                <div class="step-badge" id="stepBadge"></div>
+                <button id="nextStep">Next</button>
+              </div>
+              <div class="replay-log" id="replayLog"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
+

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 545, in <module>
+    main()
+  File "/work/solve.py", line 522, in main
+    result, sim = rollout(params)
+                  ^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 240, in rollout
+    sim.data.ctrl[:] = controller.torque()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 161, in torque
+    qdes = self.desired_qpos()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 133, in desired_qpos
+    reach = clamp((t - self.params["walk_time"]) / max(0.6, self.params["blend_time"]), 0.0, 1.0)
+            ^^^^^
+NameError: name 'clamp' is not defined

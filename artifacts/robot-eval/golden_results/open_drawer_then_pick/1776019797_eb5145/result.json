@@ -1,0 +1,71 @@
+{
+  "task": "open_drawer_then_pick",
+  "run_id": "1776019797_eb5145",
+  "script": "goldens/open_drawer_then_pick/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "drawer_open_after": 0.16258397932816554,
+    "block_xyz_after": [
+      0.9026044395063446,
+      0.03658896491349371,
+      0.02448171408161738
+    ],
+    "trace_samples": 2580,
+    "replay_steps": 2580,
+    "opened_before_lift": false,
+    "max_drawer_open_in_trace": 0.19747342133554524,
+    "max_block_z_in_trace": 0.46746556000500666,
+    "drawer_open_margin": 0.14747342133554525,
+    "retrieval_height_margin": -0.032534439994993336,
+    "final_height_margin": -0.5755182859183826,
+    "contact_fraction_during_sim": 0.0,
+    "drawer_threshold": 0.05,
+    "retrieval_threshold_z": 0.5,
+    "block_threshold_z": 0.6,
+    "drawer_progress": 1.0,
+    "retrieval_progress": 0.40846472736375744,
+    "ordered_retrieval_progress": 0.0,
+    "final_height_progress": 0.0,
+    "hold_progress": 0.0,
+    "order_progress": 0.0,
+    "final_drawer_progress": 1.0,
+    "efficiency_progress": 0.5426356589147286,
+    "progress_score": 0.3542635658914729,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "drawer_progress",
+        "value": 1.0,
+        "weight": 0.2
+      },
+      {
+        "name": "ordered_retrieval_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "final_height_progress",
+        "value": 0.0,
+        "weight": 0.2
+      },
+      {
+        "name": "hold_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "final_drawer_progress",
+        "value": 1.0,
+        "weight": 0.1
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.5426356589147286,
+        "weight": 0.1
+      }
+    ]
+  },
+  "workdir": "golden_results/open_drawer_then_pick/1776019797_eb5145/workdir"
+}

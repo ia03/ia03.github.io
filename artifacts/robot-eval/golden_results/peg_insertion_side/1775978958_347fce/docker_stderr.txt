@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 262, in <module>
+    main()
+  File "/work/solve.py", line 251, in main
+    result = run_attempt(*params)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 229, in run_attempt
+    c.ik_to_pose(above, TARGET_R, steps=250, gripper=255)
+                        ^^^^^^^^
+NameError: name 'TARGET_R' is not defined

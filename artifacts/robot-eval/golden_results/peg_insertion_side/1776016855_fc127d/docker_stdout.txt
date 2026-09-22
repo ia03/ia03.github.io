@@ -1,0 +1,2 @@
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+saved attempt1_after_grasp: score=-1.2424 peg=[ 0.4944 -0.101   0.4114] align=0.829 inserted=False

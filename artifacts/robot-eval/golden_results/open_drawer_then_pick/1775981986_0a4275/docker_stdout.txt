@@ -1,0 +1,4 @@
+drawer_open 0.0
+block_pos [ 0.615      -0.02        0.46133154]
+contact False
+steps 1880

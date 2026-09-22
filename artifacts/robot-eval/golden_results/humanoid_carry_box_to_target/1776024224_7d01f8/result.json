@@ -1,0 +1,12 @@
+{
+  "task": "humanoid_carry_box_to_target",
+  "run_id": "1776024224_7d01f8",
+  "script": "goldens/humanoid_carry_box_to_target/solve.py",
+  "solve_exit_code": 137,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "error": "no final_state.npz produced"
+  },
+  "workdir": "golden_results/humanoid_carry_box_to_target/1776024224_7d01f8/workdir"
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 134, in <module>
+    main()
+  File "/work/solve.py", line 119, in main
+    passed_like, contact, best_z, final, sim = run_case(wrist7, grasp_z, lift_z)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 63, in run_case
+    open_drawer(sim)
+  File "/work/solve.py", line 46, in open_drawer
+    from goldens.open_drawer_then_pick.solve import open_drawer as open_drawer_impl
+ModuleNotFoundError: No module named 'goldens'

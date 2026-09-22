@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 126, in <module>
+    attempt(sim)
+  File "/work/solve.py", line 105, in attempt
+    np.array([0.705, PEG_TARGET_Y, 0.475]),
+                     ^^^^^^^^^^^^
+NameError: name 'PEG_TARGET_Y' is not defined

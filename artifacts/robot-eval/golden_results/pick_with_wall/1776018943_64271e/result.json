@@ -1,0 +1,75 @@
+{
+  "task": "pick_with_wall",
+  "run_id": "1776018943_64271e",
+  "script": "goldens/pick_with_wall/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "cup_xyz_after": [
+      0.5699752299082961,
+      0.1000630468021761,
+      0.43190032751814517
+    ],
+    "trace_samples": 7860,
+    "replay_steps": 7860,
+    "had_grasp_in_trace": false,
+    "returned_past_wall_in_trace": false,
+    "lifted_in_trace": false,
+    "best_trace_x": 0.5699224826211661,
+    "best_trace_z": 0.43500000000000005,
+    "x_return_margin": -0.06992248262116607,
+    "lift_height_margin": -0.125,
+    "min_cup_z_during_sim": 0.43189983254745884,
+    "contact_fraction_during_sim": 0.0,
+    "grasp_progress": 0.0,
+    "return_progress": 0.001107391126198288,
+    "lift_progress": 0.0,
+    "final_return_progress": 0.00016513394469249343,
+    "final_height_progress": 0.0,
+    "settle_contact_progress": 0.0,
+    "efficiency_progress": 0.15267175572519084,
+    "progress_score": 0.015449797635918078,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "grasp_progress",
+        "value": 0.0,
+        "weight": 0.05
+      },
+      {
+        "name": "return_progress",
+        "value": 0.001107391126198288,
+        "weight": 0.15
+      },
+      {
+        "name": "lift_progress",
+        "value": 0.0,
+        "weight": 0.1
+      },
+      {
+        "name": "final_return_progress",
+        "value": 0.00016513394469249343,
+        "weight": 0.1
+      },
+      {
+        "name": "final_height_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "settle_contact_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.15267175572519084,
+        "weight": 0.1
+      }
+    ],
+    "threshold": 0.56,
+    "x_threshold": 0.42
+  },
+  "workdir": "golden_results/pick_with_wall/1776018943_64271e/workdir"
+}

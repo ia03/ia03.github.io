@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 550, in <module>
+    main()
+  File "/work/solve.py", line 527, in main
+    result, sim = rollout(params)
+                  ^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 244, in rollout
+    sim.data.ctrl[:] = controller.torque()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 165, in torque
+    qdes = self.desired_qpos()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 111, in desired_qpos
+    qdes[0] += self.params["yaw_amp"] * c
+               ~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'yaw_amp'

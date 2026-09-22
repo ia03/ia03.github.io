@@ -1,0 +1,83 @@
+{
+  "task": "open_drawer_then_pick",
+  "run_id": "1776036970_1fa9a5",
+  "script": "goldens/open_drawer_then_pick/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": true,
+  "grader_info": {
+    "drawer_open_after": 0.1606859945670353,
+    "block_xyz_after": [
+      0.6285103755399437,
+      0.0016350484599294444,
+      0.597639090294282
+    ],
+    "trace_samples": 1940,
+    "replay_steps": 1940,
+    "opened_before_lift": true,
+    "max_drawer_open_in_trace": 0.1778981769181877,
+    "max_block_z_in_trace": 0.6277244904582583,
+    "drawer_open_margin": 0.12789817691818772,
+    "retrieval_height_margin": 0.1277244904582583,
+    "final_height_margin": 0.0026390902942819983,
+    "contact_fraction_during_sim": 1.0,
+    "drawer_threshold": 0.05,
+    "retrieval_threshold_z": 0.5,
+    "block_threshold_z": 0.595,
+    "drawer_progress": 1.0,
+    "retrieval_progress": 1.0,
+    "ordered_retrieval_progress": 1.0,
+    "final_height_progress": 1.0,
+    "hold_progress": 1.0,
+    "order_progress": 1.0,
+    "final_drawer_progress": 1.0,
+    "progress_score": 1.0,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "drawer_progress",
+        "value": 1.0,
+        "weight": 0.22
+      },
+      {
+        "name": "ordered_retrieval_progress",
+        "value": 1.0,
+        "weight": 0.28
+      },
+      {
+        "name": "final_height_progress",
+        "value": 1.0,
+        "weight": 0.22
+      },
+      {
+        "name": "hold_progress",
+        "value": 1.0,
+        "weight": 0.18
+      },
+      {
+        "name": "final_drawer_progress",
+        "value": 1.0,
+        "weight": 0.1
+      }
+    ]
+  },
+  "workdir": "golden_results/open_drawer_then_pick/1776036970_1fa9a5/workdir",
+  "video_info": {
+    "rendered": true,
+    "path": "golden_results/open_drawer_then_pick/1776036970_1fa9a5/workdir/replay.mp4",
+    "meta": {
+      "video_path": "replay.mp4",
+      "fps": 20,
+      "frame_count": 413,
+      "width": 640,
+      "height": 480,
+      "stride": 5,
+      "replay_steps": 1940,
+      "settle_steps": 120,
+      "camera_name": null,
+      "codec": "libx264",
+      "dt": 0.002,
+      "duration_seconds": 20.65
+    }
+  }
+}

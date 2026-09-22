@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 701, in <module>
+    main()
+  File "/work/solve.py", line 689, in main
+    sim, score, info = run_open_loop_carry_walk(profile)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 420, in run_open_loop_carry_walk
+    float(sim.data.xpos[sim.left_ankle, 0]) + float(sim.data.xpos[sim.right_ankle, 0])
+                        ^^^^^^^^^^^^^^
+AttributeError: 'Sim' object has no attribute 'left_ankle'

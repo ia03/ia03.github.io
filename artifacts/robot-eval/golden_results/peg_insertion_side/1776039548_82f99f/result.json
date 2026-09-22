@@ -1,0 +1,62 @@
+{
+  "task": "peg_insertion_side",
+  "run_id": "1776039548_82f99f",
+  "script": "goldens/peg_insertion_side/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "peg_xyz_after": [
+      0.5049935829286515,
+      -0.102,
+      0.4793623038341781
+    ],
+    "peg_x_axis": [
+      -0.6126532352735561,
+      0.7730451768693828,
+      0.16449063142875145
+    ],
+    "insertion_depth": -0.020006417071348537,
+    "y_error": 0.001999999999999988,
+    "z_error": 0.0006376961658218772,
+    "x_axis_alignment": 0.6126532352735561,
+    "inserted": false,
+    "aligned": true,
+    "insertion_progress": 0.0,
+    "y_progress": 0.9200000000000005,
+    "z_progress": 0.9681151917089061,
+    "alignment_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.533217278756336,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "insertion_progress",
+        "value": 0.0,
+        "weight": 0.45
+      },
+      {
+        "name": "y_progress",
+        "value": 0.9200000000000005,
+        "weight": 0.15
+      },
+      {
+        "name": "z_progress",
+        "value": 0.9681151917089061,
+        "weight": 0.15
+      },
+      {
+        "name": "alignment_progress",
+        "value": 1.0,
+        "weight": 0.2
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.05
+      }
+    ],
+    "replay_steps": 320
+  },
+  "workdir": "golden_results/peg_insertion_side/1776039548_82f99f/workdir"
+}

@@ -1,0 +1,12 @@
+{
+  "task": "humanoid_walk_to_table_then_touch_marker",
+  "run_id": "1776023938_07044d",
+  "script": "goldens/humanoid_walk_to_table_then_touch_marker/solve.py",
+  "solve_exit_code": 1,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "error": "no final_state.npz produced"
+  },
+  "workdir": "golden_results/humanoid_walk_to_table_then_touch_marker/1776023938_07044d/workdir"
+}

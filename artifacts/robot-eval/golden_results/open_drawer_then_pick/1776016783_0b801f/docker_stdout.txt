@@ -1,0 +1,6 @@
+saved pre_handle_high drawer 0.0 block [ 0.615  -0.02    0.4613] t 0.8
+saved pre_handle drawer 0.0 block [ 0.615  -0.02    0.4613] t 1.4
+saved pull1 drawer 0.0076 block [ 0.6033 -0.0364  0.4616] t 3.1
+after pull drawer 0.0076 block [ 0.6033 -0.0364  0.4613]
+eval {'ctrl_steps': 1550, 'max_open': 0.0, 'max_z': np.float64(0.46135071530020194), 'final_open': 0.0, 'final_z': np.float64(0.4613315426800003), 'contact_fraction': 0.0, 'opened_before_high': True, 'pass': False}
+FAIL

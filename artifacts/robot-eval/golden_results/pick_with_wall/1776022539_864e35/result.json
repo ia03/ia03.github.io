@@ -1,0 +1,12 @@
+{
+  "task": "pick_with_wall",
+  "run_id": "1776022539_864e35",
+  "script": "tmp_audit/pick_with_wall_lift_probe.py",
+  "solve_exit_code": 1,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "error": "no final_state.npz produced"
+  },
+  "workdir": "golden_results/pick_with_wall/1776022539_864e35/workdir"
+}

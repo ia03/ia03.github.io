@@ -1,0 +1,18 @@
+best eval=1 score=0.0000 max_x=0.003 dist=1.653 up=-0.073 stable=0.080 pelvis=[-0.603  0.001  0.104]
+Params(freq=1.6, hip_amp=0.3, knee_amp=0.55, ankle_amp=0.28, roll_amp=0.12, yaw_amp=0.04, torso_lean=0.05, torso_bob=0.0, arm_amp=0.8, knee_bias=0.0, ankle_bias=-0.1, settle_time=0.35, duration=3.0, ramp_time=0.2)
+progress eval=25 best=0.0000
+progress eval=50 best=0.0000
+progress eval=75 best=0.0000
+progress eval=100 best=0.0000
+progress eval=125 best=0.0000
+progress eval=150 best=0.0000
+progress eval=175 best=0.0000
+progress eval=200 best=0.0000
+progress eval=225 best=0.0000
+progress eval=250 best=0.0000
+progress eval=275 best=0.0000
+progress eval=300 best=0.0000
+progress eval=325 best=0.0000
+progress eval=350 best=0.0000
+FINAL {'score': np.float64(0.0), 'max_x': 0.0025003674379500025, 'stable_frac': 0.08, 'final_dist': 1.652860536054211, 'final_pelvis': array([-0.60285996,  0.00138473,  0.10391888]), 'final_up': -0.0727526508303465, 'min_settle_z': 0.10391887887767581, 'min_settle_up': -0.07301626861019289, 'ctrl_steps': 1674}
+Params(freq=1.6, hip_amp=0.3, knee_amp=0.55, ankle_amp=0.28, roll_amp=0.12, yaw_amp=0.04, torso_lean=0.05, torso_bob=0.0, arm_amp=0.8, knee_bias=0.0, ankle_bias=-0.1, settle_time=0.35, duration=3.0, ramp_time=0.2)

@@ -1,0 +1,14 @@
+Cup: [0.5   0.    0.435]
+Above: pads=[4.99082159e-01 1.13925984e-04 5.23784762e-01], err=0.0113
+At cup: pads=[4.95248457e-01 1.41689492e-04 4.16903717e-01], cup=[ 4.99978351e-01 -2.31577880e-05  4.31909253e-01]
+Closed: cup=[0.5090943  0.00087609 0.43335132], fj=[0.0195516  0.01955182], contacts={'left_finger', 'table', 'right_finger'}
+
+=== Lifting with pad IK ===
+  Step 0: pad=[4.95235813e-01 1.38783009e-04 4.16851498e-01], cup_z=0.4334, contacts={'left_finger', 'table', 'right_finger'}
+  Step 20: pad=[4.90981855e-01 2.92461339e-04 4.36463126e-01], cup_z=0.4334, contacts={'left_finger', 'table', 'right_finger'}
+  Step 40: pad=[4.92234034e-01 3.29538965e-04 4.76900826e-01], cup_z=0.4319, contacts={'table'}
+  Step 60: pad=[4.93457852e-01 3.65290775e-04 5.17310511e-01], cup_z=0.4319, contacts={'table'}
+  Step 80: pad=[4.94669858e-01 3.98744139e-04 5.57763666e-01], cup_z=0.4319, contacts={'table'}
+
+Final: cup=[0.52596575 0.00159128 0.43189509], z=0.4319
+Saved

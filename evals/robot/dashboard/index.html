@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>robot-eval dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <a class="backLink" href="/evals/">All evals</a>
+          <h1>robot-eval</h1>
+          <p id="generatedAt">Loading results...</p>
+        </div>
+
+        <section class="filters">
+          <label>
+            <span>Task</span>
+            <select id="taskFilter"></select>
+          </label>
+          <label>
+            <span>Model</span>
+            <select id="modelFilter"></select>
+          </label>
+        </section>
+
+        <section class="runListWrap">
+          <div class="sectionHeader">
+            <h2>Tasks</h2>
+            <span id="runCount"></span>
+          </div>
+          <div id="runList" class="runList"></div>
+        </section>
+      </aside>
+
+      <main class="content">
+        <section class="card detailCard" id="detailCard">
+          <div class="emptyState">
+            <h2>Select a task slice</h2>
+            <p>Choose a task on the left, then drill into a model and attempt.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

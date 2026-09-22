@@ -1,0 +1,5 @@
+attempt 0 {'time': 18.480000000000636, 'drawer': 0.0, 'block': array([ 0.615     , -0.02      ,  0.46133154]), 'contact': False}
+attempt 1 {'time': 19.280000000000193, 'drawer': 0.0, 'block': array([ 0.68505593, -0.00118541,  0.46133154]), 'contact': False}
+attempt 2 {'time': 19.280000000000193, 'drawer': 0.0, 'block': array([ 0.615     , -0.02      ,  0.46133154]), 'contact': False}
+attempt 3 {'time': 19.280000000000193, 'drawer': 0.0, 'block': array([ 0.615     , -0.02      ,  0.46133154]), 'contact': False}
+best (np.float64(0.46133154268000026), 0, {'time': 18.480000000000636, 'drawer': 0.0, 'block': array([ 0.615     , -0.02      ,  0.46133154]), 'contact': False})

@@ -1,0 +1,9 @@
+after_close block: [0.7753 0.0134 0.4535]
+after_close hand : [ 7.451e-01 -6.000e-04  5.374e-01]
+after_close lf/rf: [ 0.7684 -0.0205  0.4795] [0.7289 0.0236 0.4787]
+after_close dz fingers-block: 0.02604767161439875 0.025247077237464
+after_close dxy fingers-block: 0.034634549927731406 0.04748345190501011
+final drawer_open: 0.16028261690207696
+final block_pos: [ 1.00486932 -0.00365969  0.02948171]
+final block_contact: False
+ctrl_trace_len: 6260

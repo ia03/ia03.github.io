@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 655, in <module>
+    main()
+  File "/work/solve.py", line 631, in main
+    current_score = witness_score(result)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 346, in witness_score
+    efficiency_term = 0.2 * result.efficiency_progress
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EvalResult' object has no attribute 'efficiency_progress'

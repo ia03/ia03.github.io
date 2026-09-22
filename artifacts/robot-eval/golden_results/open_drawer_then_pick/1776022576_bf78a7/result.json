@@ -1,0 +1,71 @@
+{
+  "task": "open_drawer_then_pick",
+  "run_id": "1776022576_bf78a7",
+  "script": "tmp_audit/open_drawer_motor_tune_settle.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": true,
+  "grader_info": {
+    "drawer_open_after": 0.16258397932816554,
+    "block_xyz_after": [
+      0.6080763961906087,
+      0.03785869786179886,
+      0.6052293825886145
+    ],
+    "trace_samples": 2440,
+    "replay_steps": 2440,
+    "opened_before_lift": true,
+    "max_drawer_open_in_trace": 0.19746989303402923,
+    "max_block_z_in_trace": 0.612417336593955,
+    "drawer_open_margin": 0.14746989303402924,
+    "retrieval_height_margin": 0.11241733659395503,
+    "final_height_margin": 0.005229382588614495,
+    "contact_fraction_during_sim": 1.0,
+    "drawer_threshold": 0.05,
+    "retrieval_threshold_z": 0.5,
+    "block_threshold_z": 0.6,
+    "drawer_progress": 1.0,
+    "retrieval_progress": 1.0,
+    "ordered_retrieval_progress": 1.0,
+    "final_height_progress": 1.0,
+    "hold_progress": 1.0,
+    "order_progress": 1.0,
+    "final_drawer_progress": 1.0,
+    "efficiency_progress": 0.5737704918032787,
+    "progress_score": 0.9573770491803278,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "drawer_progress",
+        "value": 1.0,
+        "weight": 0.2
+      },
+      {
+        "name": "ordered_retrieval_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "final_height_progress",
+        "value": 1.0,
+        "weight": 0.2
+      },
+      {
+        "name": "hold_progress",
+        "value": 1.0,
+        "weight": 0.15
+      },
+      {
+        "name": "final_drawer_progress",
+        "value": 1.0,
+        "weight": 0.1
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.5737704918032787,
+        "weight": 0.1
+      }
+    ]
+  },
+  "workdir": "golden_results/open_drawer_then_pick/1776022576_bf78a7/workdir"
+}

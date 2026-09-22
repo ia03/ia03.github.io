@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eval QA</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <h1>Eval <span>QA</span></h1>
+    <p>Quality audit of 8 LLM benchmarks across 1830 tasks</p>
+    <p style="color:var(--text2);font-size:0.82rem;margin-top:0.5rem;">This report was generated using AI (Claude). There may be mistakes in our audit.</p>
+    <div class="tabs" id="main-tabs"></div>
+  </div>
+</div>
+
+<div class="main">
+
+<!-- OVERVIEW TAB -->
+<div id="tab-overview" class="tab-content active">
+  <p class="description" style="margin-top:0.5rem;margin-bottom:2rem;max-width:700px;">We audited the grading code of 8 major LLM benchmarks and found issues throughout all of them.</p>
+  <div id="overview-highlights" class="highlight-grid"></div>
+  <div class="section-header"><h2>All Benchmarks</h2></div>
+  <div id="overview-table"></div>
+</div>
+
+<!-- BENCHMARK TABS (rendered by JS) -->
+<div id="tab-tb2" class="tab-content">
+  <p class="description" id="tb2-desc"></p>
+  <div id="tb2-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="tb2-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="tb2-instances"></div>
+</div>
+
+<div id="tab-swe" class="tab-content">
+  <p class="description" id="swebench-verified-desc"></p>
+  <div id="swebench-verified-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="swebench-verified-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="swebench-verified-instances"></div>
+</div>
+
+<div id="tab-swepro" class="tab-content">
+  <p class="description" id="swebench-pro-desc"></p>
+  <div id="swebench-pro-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="swebench-pro-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="swebench-pro-instances"></div>
+</div>
+
+<div id="tab-re" class="tab-content">
+  <p class="description" id="rebench-desc"></p>
+  <div id="rebench-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="rebench-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="rebench-instances"></div>
+</div>
+
+<div id="tab-core" class="tab-content">
+  <p class="description" id="corebench-desc"></p>
+  <div id="corebench-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="corebench-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="corebench-instances"></div>
+</div>
+
+<div id="tab-osworld" class="tab-content">
+  <p class="description" id="osworld-desc"></p>
+  <div id="osworld-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="osworld-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="osworld-instances"></div>
+</div>
+
+<div id="tab-cybench" class="tab-content">
+  <p class="description" id="cybench-desc"></p>
+  <div id="cybench-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="cybench-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="cybench-instances"></div>
+</div>
+
+<div id="tab-mle" class="tab-content">
+  <p class="description" id="mlebench-desc"></p>
+  <div id="mlebench-top-stats" class="stats-row"></div>
+  <div class="section-header"><h2>Notable Bugs</h2></div>
+  <div id="mlebench-verified-bugs"></div>
+  <div class="section-header"><h2>All Instances</h2></div>
+  <div id="mlebench-instances"></div>
+</div>
+
+</div><!-- end main -->
+
+<footer>
+  <p>Eval QA: LLM Benchmark Quality Assurance Report</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 657, in <module>
+    main()
+  File "/work/solve.py", line 632, in main
+    result, sim = rollout(params)
+                  ^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 252, in rollout
+    result = evaluate_trace(sim)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 227, in evaluate_trace
+    efficiency_progress=efficiency_progress,
+                        ^^^^^^^^^^^^^^^^^^^
+NameError: name 'efficiency_progress' is not defined

@@ -1,0 +1,14 @@
+{
+  "video_path": "replay.mp4",
+  "fps": 20,
+  "frame_count": 597,
+  "width": 640,
+  "height": 480,
+  "stride": 5,
+  "replay_steps": 2860,
+  "settle_steps": 120,
+  "camera_name": null,
+  "codec": "libx264",
+  "dt": 0.002,
+  "duration_seconds": 29.85
+}

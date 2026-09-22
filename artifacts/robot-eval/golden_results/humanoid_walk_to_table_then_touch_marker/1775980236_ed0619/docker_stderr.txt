@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 12, in <module>
+    REPO_ROOT = Path(__file__).resolve().parents[2]
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.11/pathlib.py", line 445, in __getitem__
+    raise IndexError(idx)
+IndexError: 2

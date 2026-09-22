@@ -1,0 +1,1 @@
+{'ctrl_steps': 2240, 'contact_seen': True, 'best_z': 0.590190884265778, 'last_contact_frac': 0.0, 'cup_pos': array([0.7003776 , 0.13921212, 0.43219973]), 'bin_xy_error': 0.0008736881327363247, 'cup_up_z': 0.9999264707985317, 'contact_now': False}

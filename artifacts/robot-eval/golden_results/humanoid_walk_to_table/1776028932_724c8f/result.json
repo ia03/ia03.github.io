@@ -1,0 +1,65 @@
+{
+  "task": "humanoid_walk_to_table",
+  "run_id": "1776028932_724c8f",
+  "script": "goldens/humanoid_walk_to_table/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "pelvis_xyz_after": [
+      0.8893268329382368,
+      -0.01159097556115856,
+      0.28047997959027654
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      true,
+      true,
+      true
+    ],
+    "trace_samples": 1222,
+    "replay_steps": 1222,
+    "stable_trace_fraction": 0.4083469721767594,
+    "distance_to_target": 0.16109071148926205,
+    "target_radius": 0.18,
+    "min_pelvis_z_during_sim": 0.28047997959027654,
+    "min_torso_up_during_sim": 0.9177217651873225,
+    "pelvis_z_threshold": 0.75,
+    "torso_up_threshold": 0.8,
+    "checkpoint_progress": 1.0,
+    "stability_progress": 0.4298389180807994,
+    "distance_progress": 0.8465802747721314,
+    "settle_posture_progress": 0.6869866530601844,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.7721527961722603,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "checkpoint_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.4298389180807994,
+        "weight": 0.25
+      },
+      {
+        "name": "distance_progress",
+        "value": 0.8465802747721314,
+        "weight": 0.25
+      },
+      {
+        "name": "settle_posture_progress",
+        "value": 0.6869866530601844,
+        "weight": 0.15
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.1
+      }
+    ]
+  },
+  "workdir": "golden_results/humanoid_walk_to_table/1776028932_724c8f/workdir"
+}

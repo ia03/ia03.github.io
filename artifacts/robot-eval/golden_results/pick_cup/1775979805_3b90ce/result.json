@@ -1,0 +1,11 @@
+{
+  "task": "pick_cup",
+  "run_id": "1775979805_3b90ce",
+  "script": "results/pick_cup/1775864600_d6fe64/workdir/solve.py",
+  "solve_exit_code": 1,
+  "success": false,
+  "grader_info": {
+    "error": "no final_state.npz produced"
+  },
+  "workdir": "golden_results/pick_cup/1775979805_3b90ce/workdir"
+}

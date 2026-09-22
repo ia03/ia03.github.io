@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 6, in <module>
+    from scipy.optimize import minimize
+ModuleNotFoundError: No module named 'scipy'

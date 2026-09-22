@@ -1,0 +1,11 @@
+{
+  "task": "humanoid_walk_to_table",
+  "run_id": "1775978812_9c3d61",
+  "script": "goldens/humanoid_walk_to_table/solve.py",
+  "solve_exit_code": 1,
+  "success": false,
+  "grader_info": {
+    "error": "no final_state.npz produced"
+  },
+  "workdir": "golden_results/humanoid_walk_to_table/1775978812_9c3d61/workdir"
+}

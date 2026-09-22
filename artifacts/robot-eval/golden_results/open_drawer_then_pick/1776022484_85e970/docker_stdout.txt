@@ -1,0 +1,7 @@
+after open 0.16258499372728225 [0.61968693 0.03976542 0.48111336]
+DOWN off=(0.0, 0.0) grasp=0.025 lift=0.60 -> final_z=0.542 contact=True settle_z=0.538 settle_frac=1.00 drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.025 lift=0.62 -> final_z=0.561 contact=True settle_z=0.557 settle_frac=1.00 drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.025 lift=0.64 -> final_z=0.582 contact=True settle_z=0.577 settle_frac=1.00 drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.025 lift=0.66 -> final_z=0.598 contact=True settle_z=0.592 settle_frac=1.00 drawer=0.163
+DOWN off=(0.0, 0.0) grasp=0.025 lift=0.68 -> final_z=0.611 contact=True settle_z=0.604 settle_frac=1.00 drawer=0.163
+PASS DOWN (0.0, 0.0) 0.025 0.68 {'final_z': 0.6110475657195649, 'contact': True, 'drawer': 0.1625839793281655, 'settle_frac': 1.0, 'settle_z': 0.6036017766989393}

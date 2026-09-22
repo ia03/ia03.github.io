@@ -1,0 +1,65 @@
+{
+  "task": "open_drawer_then_pick",
+  "run_id": "1776036912_80e2ba",
+  "script": "goldens/open_drawer_then_pick/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "drawer_open_after": 0.16068599456703514,
+    "block_xyz_after": [
+      0.7776859945670394,
+      1.695946708845592e-18,
+      0.4554796868914912
+    ],
+    "trace_samples": 1940,
+    "replay_steps": 1940,
+    "opened_before_lift": false,
+    "max_drawer_open_in_trace": 0.1778981769181877,
+    "max_block_z_in_trace": 0.455481413905634,
+    "drawer_open_margin": 0.12789817691818772,
+    "retrieval_height_margin": -0.044518586094365986,
+    "final_height_margin": -0.14452031310850877,
+    "contact_fraction_during_sim": 0.0,
+    "drawer_threshold": 0.05,
+    "retrieval_threshold_z": 0.5,
+    "block_threshold_z": 0.6,
+    "drawer_progress": 1.0,
+    "retrieval_progress": 0.36402019865191404,
+    "ordered_retrieval_progress": 0.0,
+    "final_height_progress": 0.14988051112641865,
+    "hold_progress": 0.0,
+    "order_progress": 0.0,
+    "final_drawer_progress": 1.0,
+    "progress_score": 0.3529737124478121,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "drawer_progress",
+        "value": 1.0,
+        "weight": 0.22
+      },
+      {
+        "name": "ordered_retrieval_progress",
+        "value": 0.0,
+        "weight": 0.28
+      },
+      {
+        "name": "final_height_progress",
+        "value": 0.14988051112641865,
+        "weight": 0.22
+      },
+      {
+        "name": "hold_progress",
+        "value": 0.0,
+        "weight": 0.18
+      },
+      {
+        "name": "final_drawer_progress",
+        "value": 1.0,
+        "weight": 0.1
+      }
+    ]
+  },
+  "workdir": "golden_results/open_drawer_then_pick/1776036912_80e2ba/workdir"
+}

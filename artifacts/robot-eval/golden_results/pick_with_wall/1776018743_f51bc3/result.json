@@ -1,0 +1,75 @@
+{
+  "task": "pick_with_wall",
+  "run_id": "1776018743_f51bc3",
+  "script": "goldens/pick_with_wall/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "cup_xyz_after": [
+      0.5700138934414923,
+      0.09999103155243105,
+      0.431894683699299
+    ],
+    "trace_samples": 1600,
+    "replay_steps": 1600,
+    "had_grasp_in_trace": false,
+    "returned_past_wall_in_trace": false,
+    "lifted_in_trace": false,
+    "best_trace_x": 0.5699455261653732,
+    "best_trace_z": 0.43500000000000005,
+    "x_return_margin": -0.0699455261653732,
+    "lift_height_margin": -0.125,
+    "min_cup_z_during_sim": 0.4318945950963844,
+    "contact_fraction_during_sim": 0.0,
+    "grasp_progress": 0.0,
+    "return_progress": 0.0007781976375250851,
+    "lift_progress": 0.0,
+    "final_return_progress": 0.0,
+    "final_height_progress": 0.0,
+    "settle_contact_progress": 0.0,
+    "efficiency_progress": 0.75,
+    "progress_score": 0.07511672964562878,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "grasp_progress",
+        "value": 0.0,
+        "weight": 0.05
+      },
+      {
+        "name": "return_progress",
+        "value": 0.0007781976375250851,
+        "weight": 0.15
+      },
+      {
+        "name": "lift_progress",
+        "value": 0.0,
+        "weight": 0.1
+      },
+      {
+        "name": "final_return_progress",
+        "value": 0.0,
+        "weight": 0.1
+      },
+      {
+        "name": "final_height_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "settle_contact_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.75,
+        "weight": 0.1
+      }
+    ],
+    "threshold": 0.56,
+    "x_threshold": 0.42
+  },
+  "workdir": "golden_results/pick_with_wall/1776018743_f51bc3/workdir"
+}

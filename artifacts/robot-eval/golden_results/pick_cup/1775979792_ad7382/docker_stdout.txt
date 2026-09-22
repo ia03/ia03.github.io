@@ -1,0 +1,1 @@
+final_z=0.581 max_z=0.584 contact=1.000 pass=True

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 654, in <module>
+    main()
+  File "/work/solve.py", line 629, in main
+    result, sim = rollout(params)
+                  ^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 249, in rollout
+    result = evaluate_trace(sim)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 224, in evaluate_trace
+    settle_posture_progress=settle_posture_progress,
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'settle_posture_progress' is not defined

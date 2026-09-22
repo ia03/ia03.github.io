@@ -1,0 +1,2 @@
+DOWN grasp=0.020 lift=0.68 -> final_z=0.612 settle_z=0.609 settle_frac=1.00 drawer=0.163 contact=True
+PASS DOWN 0.02 0.68 0.6116098307721919 0.608501024122027 1.0

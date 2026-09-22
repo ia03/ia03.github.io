@@ -1,0 +1,911 @@
+{
+  "candidate": "balanced",
+  "score": 0.43936058700209646,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -1.2461695484668718,
+      -0.12586054349937575,
+      0.09684771341282156
+    ],
+    "box_xyz_after": [
+      0.174710442129463,
+      -0.0010368114482557488,
+      0.8797677439343665
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 2120,
+    "replay_steps": 2120,
+    "stable_trace_fraction": 0.35424528301886793,
+    "pelvis_distance_to_target": 2.399472729874188,
+    "box_distance_to_target": 0.9752901089774707,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.09032471589685374,
+    "min_torso_up_during_sim": -0.10579389300670547,
+    "min_box_z_during_sim": 0.8774492272681457,
+    "max_box_to_pelvis_during_sim": 1.6330560084276258,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.39360587002096437,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.43936058700209646,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.39360587002096437,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "balanced"
+  }
+}
+{
+  "candidate": "forward_bias",
+  "score": 0.42302302302302297,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -1.2041036876035904,
+      -0.07689944547322052,
+      0.09608521551782438
+    ],
+    "box_xyz_after": [
+      0.17481324139583365,
+      -0.0008491732526203635,
+      0.8797677439343665
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 2220,
+    "replay_steps": 2220,
+    "stable_trace_fraction": 0.2072072072072072,
+    "pelvis_distance_to_target": 2.3553593561711366,
+    "box_distance_to_target": 0.9751871283256939,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.08675012000542101,
+    "min_torso_up_during_sim": -0.09132262787565508,
+    "min_box_z_during_sim": 0.8772966448338406,
+    "max_box_to_pelvis_during_sim": 1.5964658710807407,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.2302302302302302,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.42302302302302297,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.2302302302302302,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "forward_bias"
+  }
+}
+{
+  "candidate": "stable_bias",
+  "score": 0.7383298642992554,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      0.21652333669247648,
+      0.13326052642229563,
+      0.8874400366732446
+    ],
+    "box_xyz_after": [
+      0.25158792661311397,
+      -0.050283742909053984,
+      0.8796458495141826
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 2150,
+    "replay_steps": 2150,
+    "stable_trace_fraction": 0.21488372093023256,
+    "pelvis_distance_to_target": 0.9429406390871563,
+    "box_distance_to_target": 0.8998181529666242,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.8874400366732446,
+    "min_torso_up_during_sim": 0.26069853957234945,
+    "min_box_z_during_sim": 0.8771359602820519,
+    "max_box_to_pelvis_during_sim": 0.2967362656189104,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.23875968992248062,
+    "pelvis_distance_progress": 0.18005161818508142,
+    "box_distance_progress": 0.07235241962203698,
+    "carry_proximity_progress": 1.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.7383298642992554,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.07235241962203698,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 1.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.23875968992248062,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.18005161818508142,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "stable_bias"
+  }
+}
+{
+  "candidate": "aggressive_forward",
+  "score": 0.4190134099616858,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -1.1647302967010733,
+      -0.02391016828700348,
+      0.09541532654455692
+    ],
+    "box_xyz_after": [
+      0.174857186188498,
+      -0.0007018621454363232,
+      0.8797677439343665
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 2320,
+    "replay_steps": 2320,
+    "stable_trace_fraction": 0.1711206896551724,
+    "pelvis_distance_to_target": 2.3148537842838697,
+    "box_distance_to_target": 0.9751430663952263,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.08645148581706838,
+    "min_torso_up_during_sim": -0.11458482341707953,
+    "min_box_z_during_sim": 0.8771956928467566,
+    "max_box_to_pelvis_during_sim": 1.5638774378674571,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.19013409961685823,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.4190134099616858,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.19013409961685823,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "aggressive_forward"
+  }
+}
+{
+  "candidate": "aggressive_stride",
+  "score": 0.415982905982906,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -1.1362782619559402,
+      -0.0037356964919932328,
+      0.09718755100501472
+    ],
+    "box_xyz_after": [
+      0.1749553289405593,
+      -0.0005371033440891846,
+      0.8797677439343665
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 2600,
+    "replay_steps": 2600,
+    "stable_trace_fraction": 0.14384615384615385,
+    "pelvis_distance_to_target": 2.2862813139507905,
+    "box_distance_to_target": 0.9750448189911143,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.08429008782589457,
+    "min_torso_up_during_sim": -0.10210518845113545,
+    "min_box_z_during_sim": 0.8769299916806932,
+    "max_box_to_pelvis_during_sim": 1.5392297494666327,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.15982905982905982,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.415982905982906,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.15982905982905982,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "aggressive_stride"
+  }
+}
+{
+  "candidate": "open_loop_cradle_walk",
+  "score": 0.41978319783197837,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -0.7442223645595863,
+      0.004232232115772751,
+      0.0977021603429138
+    ],
+    "box_xyz_after": [
+      0.1768792017216388,
+      6.498942599123858e-05,
+      0.8797677439343665
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 820,
+    "replay_steps": 820,
+    "stable_trace_fraction": 0.17804878048780487,
+    "pelvis_distance_to_target": 1.8942270925594933,
+    "box_distance_to_target": 0.9731208004485057,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.09722243220581,
+    "min_torso_up_during_sim": -0.07110572634521949,
+    "min_box_z_during_sim": 0.8764382410838384,
+    "max_box_to_pelvis_during_sim": 1.2097089920658388,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.1978319783197832,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.41978319783197837,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.1978319783197832,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "open_loop_cradle_walk"
+  }
+}
+{
+  "candidate": "carry_walk_stable",
+  "score": 0.4355072463768116,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -0.6925529611476817,
+      -0.002622907639554055,
+      0.13053463358872053
+    ],
+    "box_xyz_after": [
+      0.17691129331584945,
+      3.361585139451403e-05,
+      0.8797677439343664
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 460,
+    "replay_steps": 460,
+    "stable_trace_fraction": 0.31956521739130433,
+    "pelvis_distance_to_target": 1.8425548280250919,
+    "box_distance_to_target": 0.973088707264789,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.13053463358872053,
+    "min_torso_up_during_sim": 0.10200564936733011,
+    "min_box_z_during_sim": 0.8763910455956584,
+    "max_box_to_pelvis_during_sim": 1.1477479690877666,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.3550724637681159,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.4355072463768116,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.3550724637681159,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "carry_walk_stable"
+  }
+}
+{
+  "candidate": "carry_walk_forward",
+  "score": 0.4340277777777778,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -0.7309740115728327,
+      -0.0036329814204510906,
+      0.09116242388080774
+    ],
+    "box_xyz_after": [
+      0.17687873738273635,
+      4.851428480043605e-05,
+      0.8797677439343665
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 480,
+    "replay_steps": 480,
+    "stable_trace_fraction": 0.30625,
+    "pelvis_distance_to_target": 1.8809775200055943,
+    "box_distance_to_target": 0.9731212638265866,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.09116242388080774,
+    "min_torso_up_during_sim": -0.10157923968432708,
+    "min_box_z_during_sim": 0.8764450313743961,
+    "max_box_to_pelvis_during_sim": 1.2025425223307435,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.3402777777777778,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.4340277777777778,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.3402777777777778,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "carry_walk_forward"
+  }
+}
+{
+  "candidate": "carry_walk_aggressive",
+  "score": 0.4340277777777778,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      -0.7288067835051071,
+      -0.0018658110461609587,
+      0.09121275256173104
+    ],
+    "box_xyz_after": [
+      0.17684766483152747,
+      1.5623421351239285e-05,
+      0.8797677439343666
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 480,
+    "replay_steps": 480,
+    "stable_trace_fraction": 0.30625,
+    "pelvis_distance_to_target": 1.878807709957479,
+    "box_distance_to_target": 0.9731523352938851,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.09121275256173104,
+    "min_torso_up_during_sim": -0.10819248000279591,
+    "min_box_z_during_sim": 0.8764931144758992,
+    "max_box_to_pelvis_during_sim": 1.2008465738828948,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.3402777777777778,
+    "pelvis_distance_progress": 0.0,
+    "box_distance_progress": 0.0,
+    "carry_proximity_progress": 0.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.4340277777777778,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.3402777777777778,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.0,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "carry_walk_aggressive"
+  }
+}
+{
+  "selected": "stable_bias",
+  "score": 0.7383298642992554,
+  "info": {
+    "success": false,
+    "pelvis_xyz_after": [
+      0.21652333669247648,
+      0.13326052642229563,
+      0.8874400366732446
+    ],
+    "box_xyz_after": [
+      0.25158792661311397,
+      -0.050283742909053984,
+      0.8796458495141826
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 2150,
+    "replay_steps": 2150,
+    "stable_trace_fraction": 0.21488372093023256,
+    "pelvis_distance_to_target": 0.9429406390871563,
+    "box_distance_to_target": 0.8998181529666242,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.8874400366732446,
+    "min_torso_up_during_sim": 0.26069853957234945,
+    "min_box_z_during_sim": 0.8771359602820519,
+    "max_box_to_pelvis_during_sim": 0.2967362656189104,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.23875968992248062,
+    "pelvis_distance_progress": 0.18005161818508142,
+    "box_distance_progress": 0.07235241962203698,
+    "carry_proximity_progress": 1.0,
+    "box_height_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.7383298642992554,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.07235241962203698,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 1.0,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.23875968992248062,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.18005161818508142,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ],
+    "profile": "stable_bias"
+  }
+}
+saved /work/final_state.npz

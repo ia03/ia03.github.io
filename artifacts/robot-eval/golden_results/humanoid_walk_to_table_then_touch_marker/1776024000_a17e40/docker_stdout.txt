@@ -1,0 +1,1 @@
+iter 0: new best score=3.5652 {"passed": false, "progress_score": 0.43, "checkpoints_hit": 3.0, "stable_trace_fraction": 0.6625, "best_touch_distance": 0.6108, "final_target_distance": 0.4853, "settle_min_pelvis_z": 0.1091, "settle_min_torso_up": 0.0467, "settle_touch_distance": 0.6348, "final_pelvis_x": 1.0352, "final_pelvis_z": 0.1095, "final_torso_up": 0.0857}

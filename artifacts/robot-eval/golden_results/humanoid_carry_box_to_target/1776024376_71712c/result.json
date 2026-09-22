@@ -1,0 +1,94 @@
+{
+  "task": "humanoid_carry_box_to_target",
+  "run_id": "1776024376_71712c",
+  "script": "goldens/humanoid_carry_box_to_target/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "pelvis_xyz_after": [
+      0.214090117198231,
+      0.26795148098903093,
+      0.12403164924672805
+    ],
+    "box_xyz_after": [
+      0.6275866670283009,
+      -0.07190093877056113,
+      0.09810346430612576
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "box_checkpoint_hits": [
+      false,
+      false,
+      false
+    ],
+    "trace_samples": 2040,
+    "replay_steps": 2040,
+    "stable_trace_fraction": 0.4303921568627451,
+    "pelvis_distance_to_target": 0.9735118411659078,
+    "box_distance_to_target": 0.5273380656302816,
+    "target_radius": 0.22,
+    "min_pelvis_z_during_sim": 0.12403164924672805,
+    "min_torso_up_during_sim": -0.652219368315872,
+    "min_box_z_during_sim": 0.08255007929739755,
+    "max_box_to_pelvis_during_sim": 0.5469038335118411,
+    "pelvis_checkpoint_progress": 0.0,
+    "box_checkpoint_progress": 0.0,
+    "stability_progress": 0.47821350762527237,
+    "pelvis_distance_progress": 0.15346796420355835,
+    "box_distance_progress": 0.45635250965950347,
+    "carry_proximity_progress": 0.6978480154479972,
+    "box_height_progress": 0.11465288791305216,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.5073612131081862,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "box_distance_progress",
+        "value": 0.45635250965950347,
+        "weight": 0.15
+      },
+      {
+        "name": "carry_proximity_progress",
+        "value": 0.6978480154479972,
+        "weight": 0.3
+      },
+      {
+        "name": "box_height_progress",
+        "value": 0.11465288791305216,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.47821350762527237,
+        "weight": 0.1
+      },
+      {
+        "name": "box_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.03
+      },
+      {
+        "name": "pelvis_distance_progress",
+        "value": 0.15346796420355835,
+        "weight": 0.02
+      },
+      {
+        "name": "pelvis_checkpoint_progress",
+        "value": 0.0,
+        "weight": 0.0
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.15
+      }
+    ]
+  },
+  "workdir": "golden_results/humanoid_carry_box_to_target/1776024376_71712c/workdir"
+}

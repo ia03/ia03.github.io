@@ -1,0 +1,72 @@
+{
+  "task": "humanoid_walk_to_table_then_touch_marker",
+  "run_id": "1776023014_01277b",
+  "script": "goldens/humanoid_walk_to_table_then_touch_marker/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "pelvis_xyz_after": [
+      1.014531558997074,
+      0.579219161057171,
+      0.21679992775725399
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      true,
+      true,
+      true
+    ],
+    "trace_samples": 1482,
+    "replay_steps": 1482,
+    "stable_trace_fraction": 0.5398110661268556,
+    "distance_to_target": 0.5794014176222374,
+    "best_trace_touch_distance": 0.6396534291270798,
+    "best_touch_distance_after": 0.9081661735083024,
+    "target_radius": 0.22,
+    "touch_radius": 0.12,
+    "min_pelvis_z_during_sim": 0.21679992775725399,
+    "min_torso_up_during_sim": -0.13134028358394895,
+    "checkpoint_progress": 1.0,
+    "stability_progress": 0.5867511588335387,
+    "distance_progress": 0.4205985823777626,
+    "touch_progress": 0.0,
+    "settle_posture_progress": 0.14453328517150266,
+    "efficiency_progress": 1.0,
+    "progress_score": 0.4448933476405224,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "checkpoint_progress",
+        "value": 1.0,
+        "weight": 0.15
+      },
+      {
+        "name": "touch_progress",
+        "value": 0.0,
+        "weight": 0.3
+      },
+      {
+        "name": "stability_progress",
+        "value": 0.5867511588335387,
+        "weight": 0.2
+      },
+      {
+        "name": "distance_progress",
+        "value": 0.4205985823777626,
+        "weight": 0.15
+      },
+      {
+        "name": "settle_posture_progress",
+        "value": 0.14453328517150266,
+        "weight": 0.1
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.1
+      }
+    ]
+  },
+  "workdir": "golden_results/humanoid_walk_to_table_then_touch_marker/1776023014_01277b/workdir"
+}

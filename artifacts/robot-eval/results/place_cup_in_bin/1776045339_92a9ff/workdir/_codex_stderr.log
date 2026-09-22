@@ -1,0 +1,3 @@
+Reading additional input from stdin...
+2026-04-13T01:57:39.649032Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a value at line 1 column 0
+2026-04-13T02:09:30.291633Z ERROR codex_core::tools::router: error=failed to parse function arguments: duplicate field `yield_time_ms` at line 1 column 92

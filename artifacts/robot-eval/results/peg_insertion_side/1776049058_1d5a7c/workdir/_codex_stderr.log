@@ -1,0 +1,4 @@
+Reading additional input from stdin...
+2026-04-13T02:59:31.429525Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing an object at line 149 column 3
+2026-04-13T03:05:09.360324Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing an object at line 149 column 3
+2026-04-13T03:08:25.239615Z ERROR codex_core::tools::router: error=write_stdin failed: stdin is closed for this session; rerun exec_command with tty=true to keep stdin open

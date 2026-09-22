@@ -1,0 +1,11 @@
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+saved attempt1_after_grasp: score=-1.2355 peg=[ 0.4895 -0.1004  0.4137] align=1.000 inserted=False
+saved attempt1_lift: score=-1.1929 peg=[ 0.4896 -0.0769  0.4114] align=1.000 inserted=False
+AttemptResult(name='attempt1_lift', score=np.float64(-1.1928576162445237), peg_pos=array([ 0.48955364, -0.07689891,  0.41136282]), align=0.9996596421896498, inserted=np.False_)
+AttemptResult(name='attempt1_lift', score=np.float64(-1.1928576162445237), peg_pos=array([ 0.48955364, -0.07689891,  0.41136282]), align=0.9996596421896498, inserted=np.False_)
+saved attempt3_lift: score=-1.1365 peg=[ 0.4848 -0.0393  0.4114] align=0.985 inserted=False
+AttemptResult(name='attempt3_lift', score=np.float64(-1.1365203844627607), peg_pos=array([ 0.48481599, -0.03925499,  0.41136282]), align=0.9847881220094797, inserted=np.False_)
+AttemptResult(name='attempt3_lift', score=np.float64(-1.1365203844627607), peg_pos=array([ 0.48481599, -0.03925499,  0.41136282]), align=0.9847881220094797, inserted=np.False_)
+AttemptResult(name='attempt3_lift', score=np.float64(-1.1365203844627607), peg_pos=array([ 0.48481599, -0.03925499,  0.41136282]), align=0.9847881220094797, inserted=np.False_)
+AttemptResult(name='attempt3_lift', score=np.float64(-1.1365203844627607), peg_pos=array([ 0.48481599, -0.03925499,  0.41136282]), align=0.9847881220094797, inserted=np.False_)
+best AttemptResult(name='attempt3_lift', score=np.float64(-1.1365203844627607), peg_pos=array([ 0.48481599, -0.03925499,  0.41136282]), align=0.9847881220094797, inserted=np.False_)

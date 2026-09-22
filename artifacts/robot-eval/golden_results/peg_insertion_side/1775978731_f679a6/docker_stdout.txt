@@ -1,0 +1,13 @@
+start peg [ 0.47  -0.12   0.412]
+open_home peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+pregrasp peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+align_grasp peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+close peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+lift peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+translate_y peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+approach_slot peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+insert peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+settle peg [ 0.47       -0.12        0.41136282] align 1.0 progress 0.0
+final peg [ 0.47       -0.12        0.41136282]
+alignment 1.0
+progress_score 0.0

@@ -1,0 +1,7 @@
+attempt 1: now_z=0.4319 replay_final_z=0.4319 contact=0.000 passed=False params={'descend_mid_z': 0.482, 'close_steps': 180, 'lift_mid_z': 0.63, 'hold_steps': 200}
+saved best-so-far to /work/final_state.npz
+attempt 2: now_z=0.4319 replay_final_z=0.4319 contact=0.000 passed=False params={'descend_mid_z': 0.478, 'close_steps': 220, 'lift_mid_z': 0.64, 'hold_steps': 240, 'x_offset': 0.002}
+saved best-so-far to /work/final_state.npz
+attempt 3: now_z=0.4149 replay_final_z=0.4319 contact=0.000 passed=False params={'descend_mid_z': 0.476, 'close_steps': 240, 'lift_mid_z': 0.65, 'hold_steps': 260, 'y_offset': 0.002}
+attempt 4: now_z=0.4319 replay_final_z=0.4319 contact=0.000 passed=False params={'descend_mid_z': 0.48, 'close_steps': 200, 'lift_mid_z': 0.62, 'hold_steps': 260, 'x_offset': -0.002}
+best replay: final_z=0.4319 contact=0.000 passed=False

@@ -1,0 +1,3 @@
+Reading additional input from stdin...
+2026-04-13T01:55:50.109063Z ERROR codex_models_manager::cache: failed to load models cache: EOF while parsing a value at line 1 column 0
+2026-04-13T02:06:00.438608Z ERROR codex_models_manager::manager: failed to renew cache TTL: EOF while parsing a string at line 503 column 4822

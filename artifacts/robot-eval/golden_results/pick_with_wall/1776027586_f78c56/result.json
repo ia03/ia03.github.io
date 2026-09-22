@@ -1,0 +1,75 @@
+{
+  "task": "pick_with_wall",
+  "run_id": "1776027586_f78c56",
+  "script": "goldens/pick_with_wall/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "cup_xyz_after": [
+      0.5499891595215561,
+      0.0799874756765686,
+      0.4318863717341277
+    ],
+    "trace_samples": 10560,
+    "replay_steps": 10560,
+    "had_grasp_in_trace": false,
+    "returned_past_wall_in_trace": false,
+    "lifted_in_trace": false,
+    "best_trace_x": 0.549986896514059,
+    "best_trace_z": 0.43500000000000005,
+    "x_return_margin": -0.049986896514058965,
+    "lift_height_margin": -0.125,
+    "min_cup_z_during_sim": 0.43188601434549123,
+    "contact_fraction_during_sim": 0.0,
+    "grasp_progress": 0.0,
+    "return_progress": 0.00026206971882158903,
+    "lift_progress": 0.0,
+    "final_return_progress": 8.338829572236583e-05,
+    "final_height_progress": 0.0,
+    "settle_contact_progress": 0.0,
+    "efficiency_progress": 0.11363636363636363,
+    "progress_score": 0.01141128565103184,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "grasp_progress",
+        "value": 0.0,
+        "weight": 0.05
+      },
+      {
+        "name": "return_progress",
+        "value": 0.00026206971882158903,
+        "weight": 0.15
+      },
+      {
+        "name": "lift_progress",
+        "value": 0.0,
+        "weight": 0.1
+      },
+      {
+        "name": "final_return_progress",
+        "value": 8.338829572236583e-05,
+        "weight": 0.1
+      },
+      {
+        "name": "final_height_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "settle_contact_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.11363636363636363,
+        "weight": 0.1
+      }
+    ],
+    "threshold": 0.56,
+    "x_threshold": 0.42
+  },
+  "workdir": "golden_results/pick_with_wall/1776027586_f78c56/workdir"
+}

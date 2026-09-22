@@ -1,0 +1,6 @@
+attempt 0.24 0.438 0.78 0.37 0.66 EvalResult(contact_seen=False, reached_x=np.False_, reached_z=np.False_, final_x=0.5699886841734491, final_z=0.4318951709737192, settle_contact_fraction=0.0, passed=False)
+saved best 28.19064868002701 EvalResult(contact_seen=False, reached_x=np.False_, reached_z=np.False_, final_x=0.5699886841734491, final_z=0.4318951709737192, settle_contact_fraction=0.0, passed=False)
+attempt 0.22 0.438 0.8 0.35 0.68 EvalResult(contact_seen=False, reached_x=np.False_, reached_z=np.False_, final_x=0.5699943963011138, final_z=0.4318934973854013, settle_contact_fraction=0.0, passed=False)
+attempt 0.24 0.442 0.8 0.36 0.66 EvalResult(contact_seen=False, reached_x=np.False_, reached_z=np.False_, final_x=0.570006904177412, final_z=0.4318873584942644, settle_contact_fraction=0.0, passed=False)
+attempt 0.26 0.438 0.79 0.38 0.65 EvalResult(contact_seen=False, reached_x=np.False_, reached_z=np.False_, final_x=0.5700223364745967, final_z=0.43190281773168127, settle_contact_fraction=0.0, passed=False)
+best result EvalResult(contact_seen=False, reached_x=np.False_, reached_z=np.False_, final_x=0.5700223364745967, final_z=0.43190281773168127, settle_contact_fraction=0.0, passed=False)

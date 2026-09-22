@@ -1,0 +1,12 @@
+{
+  "task": "peg_insertion_side",
+  "run_id": "1776022774_38ec5b",
+  "script": "tmp_audit/peg_lift_probe.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "error": "no final_state.npz produced"
+  },
+  "workdir": "golden_results/peg_insertion_side/1776022774_38ec5b/workdir"
+}

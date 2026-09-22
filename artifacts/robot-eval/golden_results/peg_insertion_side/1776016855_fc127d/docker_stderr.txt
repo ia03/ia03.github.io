@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 232, in <module>
+    main()
+  File "/work/solve.py", line 224, in main
+    result = Controller().run_attempt(*params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 201, in run_attempt
+    self.ik_to_pose(lift, SIDE_R, steps=280, gripper=0, pos_gain=2.5, rot_gain=0.10)
+  File "/work/solve.py", line 156, in ik_to_pose
+    qerr = self.quat_mul(quat_t, self.quat_conj(quat_c))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/solve.py", line 130, in quat_mul
+    a[0] * b[0] - a[1] * b[1] - a[2] * b[2] - a[3] * b[3],
+                                              ~^^^
+IndexError: index 3 is out of bounds for axis 0 with size 3

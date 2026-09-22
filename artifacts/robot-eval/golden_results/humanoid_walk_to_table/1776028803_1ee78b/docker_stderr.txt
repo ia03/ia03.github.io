@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 10, in <module>
+    from sim import MIN_PELVIS_Z, MIN_TORSO_UP, Sim, TARGET_XY, TOUCH_POINT
+ImportError: cannot import name 'TOUCH_POINT' from 'sim' (/work/sim.py)

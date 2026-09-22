@@ -1,0 +1,1 @@
+{'success': False, 'steps': 1640, 'max_replay_z': 0.4341448906636287, 'final_cup': array([ 0.48000971, -0.11997769,  0.43188934]), 'uprightness': 0.9999997647387765, 'inside': np.False_, 'high': np.True_, 'replay_contact': np.False_, 'release_replay': np.True_, 'release_settle': np.True_}

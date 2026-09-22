@@ -1,0 +1,12 @@
+{
+  "task": "peg_insertion_side",
+  "run_id": "1776024213_9d04d3",
+  "script": "goldens/peg_insertion_side/solve.py",
+  "solve_exit_code": 1,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "error": "no final_state.npz produced"
+  },
+  "workdir": "golden_results/peg_insertion_side/1776024213_9d04d3/workdir"
+}

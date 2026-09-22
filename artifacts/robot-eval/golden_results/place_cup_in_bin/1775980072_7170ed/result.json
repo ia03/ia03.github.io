@@ -1,0 +1,73 @@
+{
+  "task": "place_cup_in_bin",
+  "run_id": "1775980072_7170ed",
+  "script": "goldens/place_cup_in_bin/solve.py",
+  "solve_exit_code": 0,
+  "success": false,
+  "grader_info": {
+    "cup_xyz_after": [
+      0.7122782746967968,
+      0.13136013336054733,
+      0.41458651216221515
+    ],
+    "trace_samples": 2540,
+    "replay_steps": 2540,
+    "had_grasp_in_trace": true,
+    "lifted_in_trace": true,
+    "best_trace_z": 0.580639106244765,
+    "lift_height_margin": 0.080639106244765,
+    "late_contact_fraction_in_trace": 0.0,
+    "bin_xy_error": 0.015013438149788668,
+    "inside_bin": false,
+    "cup_up_z": 0.49137483329321185,
+    "upright": false,
+    "contact_fraction_during_sim": 0.0,
+    "grasp_progress": 1.0,
+    "lift_progress": 1.0,
+    "inside_bin_progress": 0.0,
+    "placement_progress": 0.9559190277700533,
+    "release_progress": 1.0,
+    "upright_progress": 0.5780880391684845,
+    "efficiency_progress": 0.5511811023622047,
+    "progress_score": 0.5176729676872367,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "grasp_progress",
+        "value": 1.0,
+        "weight": 0.05
+      },
+      {
+        "name": "lift_progress",
+        "value": 1.0,
+        "weight": 0.1
+      },
+      {
+        "name": "inside_bin_progress",
+        "value": 0.0,
+        "weight": 0.35
+      },
+      {
+        "name": "placement_progress",
+        "value": 0.9559190277700533,
+        "weight": 0.1
+      },
+      {
+        "name": "release_progress",
+        "value": 1.0,
+        "weight": 0.1
+      },
+      {
+        "name": "upright_progress",
+        "value": 0.5780880391684845,
+        "weight": 0.25
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.5511811023622047,
+        "weight": 0.05
+      }
+    ]
+  },
+  "workdir": "golden_results/place_cup_in_bin/1775980072_7170ed/workdir"
+}

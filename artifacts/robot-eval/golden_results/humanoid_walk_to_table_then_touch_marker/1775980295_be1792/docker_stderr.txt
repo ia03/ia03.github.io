@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/work/solve.py", line 363, in <module>
+    main()
+  File "/work/solve.py", line 320, in main
+    base_path = Path(__file__).with_name("best_params.json")
+                ^^^^
+NameError: name 'Path' is not defined. Did you mean: 'math'?

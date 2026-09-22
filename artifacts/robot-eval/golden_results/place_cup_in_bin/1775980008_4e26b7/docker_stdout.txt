@@ -1,0 +1,1 @@
+{'passed': np.False_, 'best_z': 0.5450635641891896, 'replay_contact_tail': np.float64(0.0), 'settle_contact_frac': 0.0, 'final_cup_pos': array([0.58377834, 0.07924725, 0.43276491]), 'up_z': 0.9994191045541403, 'bin_dx': np.float64(0.11622165840999588), 'bin_dy': np.float64(0.0607527503342168)}

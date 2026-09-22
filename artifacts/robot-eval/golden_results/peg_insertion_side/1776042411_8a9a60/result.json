@@ -1,0 +1,80 @@
+{
+  "task": "peg_insertion_side",
+  "run_id": "1776042411_8a9a60",
+  "script": "goldens/peg_insertion_side/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": true,
+  "grader_info": {
+    "peg_xyz_after": [
+      0.5253701082989326,
+      -0.1134401051040771,
+      0.5266422376543941
+    ],
+    "peg_x_axis": [
+      -0.5440339310690656,
+      0.8200246301626892,
+      0.17772644083558203
+    ],
+    "insertion_depth": 0.01037010829893259,
+    "y_error": 0.013440105104077088,
+    "z_error": 0.00664223765439409,
+    "x_axis_alignment": 0.5440339310690656,
+    "inserted": true,
+    "aligned": true,
+    "insertion_progress": 1.0,
+    "y_progress": 1.0,
+    "z_progress": 1.0,
+    "alignment_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 1.0,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "insertion_progress",
+        "value": 1.0,
+        "weight": 0.45
+      },
+      {
+        "name": "y_progress",
+        "value": 1.0,
+        "weight": 0.15
+      },
+      {
+        "name": "z_progress",
+        "value": 1.0,
+        "weight": 0.15
+      },
+      {
+        "name": "alignment_progress",
+        "value": 1.0,
+        "weight": 0.2
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.05
+      }
+    ],
+    "replay_steps": 2940
+  },
+  "workdir": "golden_results/peg_insertion_side/1776042411_8a9a60/workdir",
+  "video_info": {
+    "rendered": true,
+    "path": "golden_results/peg_insertion_side/1776042411_8a9a60/workdir/replay.mp4",
+    "meta": {
+      "video_path": "replay.mp4",
+      "fps": 20,
+      "frame_count": 613,
+      "width": 640,
+      "height": 480,
+      "stride": 5,
+      "replay_steps": 2940,
+      "settle_steps": 120,
+      "camera_name": null,
+      "codec": "libx264",
+      "dt": 0.002,
+      "duration_seconds": 30.65
+    }
+  }
+}

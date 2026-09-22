@@ -1,0 +1,74 @@
+{
+  "task": "stack_blocks",
+  "run_id": "1776027539_066c72",
+  "script": "goldens/stack_blocks/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": true,
+  "grader_info": {
+    "red_xyz_after": [
+      0.6241178272282251,
+      0.08476421729027102,
+      0.4737094255394661
+    ],
+    "green_xyz_after": [
+      0.6266391639348275,
+      0.07887084859352961,
+      0.4243143728458534
+    ],
+    "delta_xyz": [
+      -0.002521336706602484,
+      0.005893368696741411,
+      0.04939505269361272
+    ],
+    "xy_error": 0.006410065006206459,
+    "xy_margin": 0.012106631303258588,
+    "target_stack_dz": 0.05500000000000001,
+    "z_error_from_target": 0.0056049473063872896,
+    "dz_margin": 0.009395052693612717,
+    "yaw_alignment": 0.9935245840099941,
+    "completion_progress": 1.0,
+    "xy_progress": 0.6725906279588105,
+    "z_progress": 0.6263368462408474,
+    "rotation_progress": 0.9352458400999408,
+    "efficiency_progress": 0.13026487190620928,
+    "progress_score": 0.7902151458481737,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "completion_progress",
+        "value": 1.0,
+        "weight": 0.35
+      },
+      {
+        "name": "xy_progress",
+        "value": 0.6725906279588105,
+        "weight": 0.25
+      },
+      {
+        "name": "z_progress",
+        "value": 0.6263368462408474,
+        "weight": 0.2
+      },
+      {
+        "name": "rotation_progress",
+        "value": 0.9352458400999408,
+        "weight": 0.15
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.13026487190620928,
+        "weight": 0.05
+      }
+    ],
+    "aligned": true,
+    "stacked_height": true,
+    "replay_steps": 6909,
+    "alignment_tolerance": 0.018,
+    "stack_height_range": [
+      0.04,
+      0.07
+    ]
+  },
+  "workdir": "golden_results/stack_blocks/1776027539_066c72/workdir"
+}

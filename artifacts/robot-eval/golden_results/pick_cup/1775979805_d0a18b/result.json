@@ -1,0 +1,47 @@
+{
+  "task": "pick_cup",
+  "run_id": "1775979805_d0a18b",
+  "script": "results/pick_cup/1775867527_472c96/workdir/solve.py",
+  "solve_exit_code": 0,
+  "success": false,
+  "grader_info": {
+    "cup_z_at_load": 0.43190836985040126,
+    "contact_at_load": false,
+    "cup_z_after_forward_sim": 0.4319083990398905,
+    "cup_xyz_after": [
+      0.5292351243055489,
+      0.0016943865343460338,
+      0.4319083990398905
+    ],
+    "min_cup_z_during_sim": 0.43190835892048346,
+    "contact_fraction_during_sim": 0.0,
+    "height_margin": -0.08809160096010954,
+    "required_contact_fraction": 0.5,
+    "height_progress": 0.0,
+    "contact_progress": 0.0,
+    "efficiency_progress": 0.016908212560386472,
+    "progress_score": 0.002536231884057971,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "height_progress",
+        "value": 0.0,
+        "weight": 0.4
+      },
+      {
+        "name": "contact_progress",
+        "value": 0.0,
+        "weight": 0.45
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.016908212560386472,
+        "weight": 0.15
+      }
+    ],
+    "replay_steps": 41400,
+    "forward_sim_steps": 500,
+    "threshold": 0.52
+  },
+  "workdir": "golden_results/pick_cup/1775979805_d0a18b/workdir"
+}

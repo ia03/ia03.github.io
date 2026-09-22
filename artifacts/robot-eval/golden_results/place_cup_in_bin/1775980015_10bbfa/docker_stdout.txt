@@ -1,0 +1,2 @@
+candidate=0 success=True score=0.972 inside=True upright=True raw_upright=0.975 settle_upright=1.000 best_z=0.590 cup=[0.7066 0.1686 0.4324] params={'close_grip': 0.0, 'place_grip': 20.0, 'place_hold': 180, 'place_z': 0.49, 'grasp_z': 0.435}
+saved passing candidate 0 to /work/final_state.npz

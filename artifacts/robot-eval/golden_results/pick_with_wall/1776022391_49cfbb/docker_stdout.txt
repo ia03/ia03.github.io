@@ -1,0 +1,175 @@
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.58 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 1 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.62 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 2 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.66 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 3 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.7 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 4 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.58 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 5 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.62 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 6 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.66 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 7 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+candidate 1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.7 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 8 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+trial 9 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 10 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 11 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 12 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 13 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 14 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 15 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 16 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 17 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 18 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 19 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 20 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 21 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 22 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 23 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 24 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 25 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 26 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 27 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 28 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 29 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 30 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 31 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 32 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 33 contact False best_z 0.434 final [ 0.543 -0.02   0.415] passed False
+trial 34 contact False best_z 0.434 final [ 0.543 -0.02   0.415] passed False
+trial 35 contact False best_z 0.434 final [ 0.543 -0.02   0.415] passed False
+trial 36 contact False best_z 0.434 final [ 0.543 -0.02   0.415] passed False
+trial 37 contact False best_z 0.434 final [0.569 0.088 0.433] passed False
+trial 38 contact False best_z 0.434 final [0.569 0.088 0.433] passed False
+trial 39 contact False best_z 0.434 final [0.569 0.088 0.433] passed False
+trial 40 contact False best_z 0.434 final [0.569 0.088 0.433] passed False
+candidate 1.5707963267948966 0.8 (0.01, 0.0, 0.45) 0.58 contact True cup [0.54031004 0.06774927 0.40437386] trace 580
+trial 41 contact True best_z 0.434 final [0.542 0.031 0.415] passed False
+candidate 1.5707963267948966 0.8 (0.01, 0.0, 0.45) 0.62 contact True cup [0.54031004 0.06774927 0.40437386] trace 580
+trial 42 contact True best_z 0.434 final [0.542 0.031 0.415] passed False
+candidate 1.5707963267948966 0.8 (0.01, 0.0, 0.45) 0.66 contact True cup [0.54031004 0.06774927 0.40437386] trace 580
+trial 43 contact True best_z 0.434 final [0.542 0.031 0.415] passed False
+candidate 1.5707963267948966 0.8 (0.01, 0.0, 0.45) 0.7 contact True cup [0.54031004 0.06774927 0.40437386] trace 580
+trial 44 contact True best_z 0.434 final [0.542 0.031 0.415] passed False
+trial 45 contact False best_z 0.434 final [0.554 0.123 0.415] passed False
+trial 46 contact False best_z 0.434 final [0.554 0.123 0.415] passed False
+trial 47 contact False best_z 0.434 final [0.554 0.123 0.415] passed False
+trial 48 contact False best_z 0.434 final [0.554 0.123 0.415] passed False
+trial 49 contact False best_z 0.434 final [0.536 0.134 0.415] passed False
+trial 50 contact False best_z 0.434 final [0.536 0.134 0.415] passed False
+trial 51 contact False best_z 0.434 final [0.536 0.134 0.415] passed False
+trial 52 contact False best_z 0.434 final [0.536 0.134 0.415] passed False
+trial 53 contact False best_z 0.44 final [0.627 0.315 0.266] passed False
+trial 54 contact False best_z 0.44 final [0.627 0.315 0.266] passed False
+trial 55 contact False best_z 0.44 final [0.627 0.315 0.266] passed False
+trial 56 contact False best_z 0.44 final [0.627 0.315 0.266] passed False
+trial 57 contact False best_z 0.434 final [0.537 0.069 0.415] passed False
+trial 58 contact False best_z 0.434 final [0.537 0.069 0.415] passed False
+trial 59 contact False best_z 0.434 final [0.537 0.069 0.415] passed False
+trial 60 contact False best_z 0.434 final [0.537 0.069 0.415] passed False
+trial 61 contact False best_z 0.44 final [0.553 0.128 0.432] passed False
+trial 62 contact False best_z 0.44 final [0.553 0.128 0.432] passed False
+trial 63 contact False best_z 0.44 final [0.553 0.128 0.432] passed False
+trial 64 contact False best_z 0.44 final [0.553 0.128 0.432] passed False
+trial 65 contact False best_z 0.434 final [0.587 0.094 0.432] passed False
+trial 66 contact False best_z 0.434 final [0.587 0.094 0.432] passed False
+trial 67 contact False best_z 0.434 final [0.587 0.094 0.432] passed False
+trial 68 contact False best_z 0.434 final [0.587 0.094 0.432] passed False
+trial 69 contact False best_z 0.434 final [ 0.588 -0.053  0.415] passed False
+trial 70 contact False best_z 0.434 final [ 0.588 -0.053  0.415] passed False
+trial 71 contact False best_z 0.434 final [ 0.588 -0.053  0.415] passed False
+trial 72 contact False best_z 0.434 final [ 0.588 -0.053  0.415] passed False
+trial 73 contact False best_z 0.44 final [ 0.536 -0.172  0.415] passed False
+trial 74 contact False best_z 0.44 final [ 0.536 -0.172  0.415] passed False
+trial 75 contact False best_z 0.44 final [ 0.536 -0.172  0.415] passed False
+trial 76 contact False best_z 0.44 final [ 0.536 -0.172  0.415] passed False
+trial 77 contact False best_z 0.434 final [0.572 0.109 0.432] passed False
+trial 78 contact False best_z 0.434 final [0.572 0.109 0.432] passed False
+trial 79 contact False best_z 0.434 final [0.572 0.109 0.432] passed False
+trial 80 contact False best_z 0.434 final [0.572 0.109 0.432] passed False
+trial 81 contact False best_z 0.434 final [0.585 0.099 0.433] passed False
+trial 82 contact False best_z 0.434 final [0.585 0.099 0.433] passed False
+trial 83 contact False best_z 0.434 final [0.585 0.099 0.433] passed False
+trial 84 contact False best_z 0.434 final [0.585 0.099 0.433] passed False
+candidate 1.5707963267948966 1.2 (0.0, 0.0, 0.44) 0.58 contact True cup [0.5343387  0.07292691 0.43698819] trace 580
+trial 85 contact True best_z 0.44 final [0.54  0.167 0.414] passed False
+candidate 1.5707963267948966 1.2 (0.0, 0.0, 0.44) 0.62 contact True cup [0.5343387  0.07292691 0.43698819] trace 580
+trial 86 contact True best_z 0.44 final [0.54  0.167 0.414] passed False
+candidate 1.5707963267948966 1.2 (0.0, 0.0, 0.44) 0.66 contact True cup [0.5343387  0.07292691 0.43698819] trace 580
+trial 87 contact True best_z 0.44 final [0.54  0.167 0.414] passed False
+candidate 1.5707963267948966 1.2 (0.0, 0.0, 0.44) 0.7 contact True cup [0.5343387  0.07292691 0.43698819] trace 580
+trial 88 contact True best_z 0.44 final [0.54  0.167 0.414] passed False
+trial 89 contact False best_z 0.435 final [0.554 0.074 0.433] passed False
+trial 90 contact False best_z 0.435 final [0.554 0.074 0.433] passed False
+trial 91 contact False best_z 0.435 final [0.554 0.074 0.433] passed False
+trial 92 contact False best_z 0.435 final [0.554 0.074 0.433] passed False
+trial 93 contact False best_z 0.434 final [0.592 0.088 0.432] passed False
+trial 94 contact False best_z 0.434 final [0.592 0.088 0.432] passed False
+trial 95 contact False best_z 0.434 final [0.592 0.088 0.432] passed False
+trial 96 contact False best_z 0.434 final [0.592 0.088 0.432] passed False
+trial 97 contact False best_z 0.434 final [0.535 0.109 0.415] passed False
+trial 98 contact False best_z 0.434 final [0.535 0.109 0.415] passed False
+trial 99 contact False best_z 0.434 final [0.535 0.109 0.415] passed False
+trial 100 contact False best_z 0.434 final [0.535 0.109 0.415] passed False
+trial 101 contact False best_z 0.434 final [0.584 0.094 0.432] passed False
+trial 102 contact False best_z 0.434 final [0.584 0.094 0.432] passed False
+trial 103 contact False best_z 0.434 final [0.584 0.094 0.432] passed False
+trial 104 contact False best_z 0.434 final [0.584 0.094 0.432] passed False
+trial 105 contact False best_z 0.436 final [0.584 0.1   0.435] passed False
+trial 106 contact False best_z 0.436 final [0.584 0.1   0.435] passed False
+trial 107 contact False best_z 0.436 final [0.584 0.1   0.435] passed False
+trial 108 contact False best_z 0.436 final [0.584 0.1   0.435] passed False
+candidate 1.5707963267948966 1.2 (0.0, -0.01, 0.45) 0.58 contact True cup [0.54497753 0.06762747 0.40455528] trace 580
+trial 109 contact True best_z 0.434 final [ 0.568 -0.298  0.379] passed False
+candidate 1.5707963267948966 1.2 (0.0, -0.01, 0.45) 0.62 contact True cup [0.54497753 0.06762747 0.40455528] trace 580
+trial 110 contact True best_z 0.434 final [ 0.568 -0.298  0.379] passed False
+candidate 1.5707963267948966 1.2 (0.0, -0.01, 0.45) 0.66 contact True cup [0.54497753 0.06762747 0.40455528] trace 580
+trial 111 contact True best_z 0.434 final [ 0.568 -0.298  0.379] passed False
+candidate 1.5707963267948966 1.2 (0.0, -0.01, 0.45) 0.7 contact True cup [0.54497753 0.06762747 0.40455528] trace 580
+trial 112 contact True best_z 0.434 final [ 0.568 -0.298  0.379] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.58 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 113 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.62 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 114 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.66 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 115 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.44) 0.7 contact True cup [0.5375571  0.06551175 0.42814962] trace 580
+trial 116 contact True best_z 0.437 final [ 0.536 -0.121  0.416] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.58 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 117 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.62 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 118 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.66 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 119 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+candidate -1.5707963267948966 0.6 (0.0, 0.0, 0.45) 0.7 contact True cup [0.54515518 0.06807534 0.40958725] trace 580
+trial 120 contact True best_z 0.434 final [0.541 0.085 0.415] passed False
+trial 121 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 122 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 123 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 124 contact False best_z 0.436 final [0.572 0.092 0.433] passed False
+trial 125 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 126 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 127 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 128 contact False best_z 0.44 final [0.54  0.072 0.435] passed False
+trial 129 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 130 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 131 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 132 contact False best_z 0.437 final [0.537 0.026 0.415] passed False
+trial 133 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 134 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 135 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 136 contact False best_z 0.437 final [ 0.538 -0.049  0.415] passed False
+trial 137 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 138 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 139 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 140 contact False best_z 0.434 final [0.592 0.078 0.432] passed False
+trial 141 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 142 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 143 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 144 contact False best_z 0.434 final [0.543 0.031 0.415] passed False
+trial 145 contact False best_z 0.434 final [ 0.543 -0.02   0.415] passed False
+trial 146 contact False best_z 0.434 final [ 0.543 -0.02   0.415] passed False
+trial 147 contact False best_z 0.434 final [ 0.543 -0.02   0.415] passed False

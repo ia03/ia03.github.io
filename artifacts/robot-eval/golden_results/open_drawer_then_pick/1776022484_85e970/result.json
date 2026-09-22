@@ -1,0 +1,71 @@
+{
+  "task": "open_drawer_then_pick",
+  "run_id": "1776022484_85e970",
+  "script": "tmp_audit/open_drawer_motor_settle_search.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": false,
+  "grader_info": {
+    "drawer_open_after": 0.16258397932816554,
+    "block_xyz_after": [
+      0.7327174474985665,
+      0.040396221882483666,
+      0.44823231598617447
+    ],
+    "trace_samples": 2440,
+    "replay_steps": 2440,
+    "opened_before_lift": false,
+    "max_drawer_open_in_trace": 0.1974463487954617,
+    "max_block_z_in_trace": 0.44829300460950605,
+    "drawer_open_margin": 0.1474463487954617,
+    "retrieval_height_margin": -0.05170699539049395,
+    "final_height_margin": -0.1517676840138255,
+    "contact_fraction_during_sim": 0.0,
+    "drawer_threshold": 0.05,
+    "retrieval_threshold_z": 0.5,
+    "block_threshold_z": 0.6,
+    "drawer_progress": 1.0,
+    "retrieval_progress": 0.1382167434917675,
+    "ordered_retrieval_progress": 0.0,
+    "final_height_progress": 0.051451974913590416,
+    "hold_progress": 0.0,
+    "order_progress": 0.0,
+    "final_drawer_progress": 1.0,
+    "efficiency_progress": 0.5737704918032787,
+    "progress_score": 0.367667444163046,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "drawer_progress",
+        "value": 1.0,
+        "weight": 0.2
+      },
+      {
+        "name": "ordered_retrieval_progress",
+        "value": 0.0,
+        "weight": 0.25
+      },
+      {
+        "name": "final_height_progress",
+        "value": 0.051451974913590416,
+        "weight": 0.2
+      },
+      {
+        "name": "hold_progress",
+        "value": 0.0,
+        "weight": 0.15
+      },
+      {
+        "name": "final_drawer_progress",
+        "value": 1.0,
+        "weight": 0.1
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 0.5737704918032787,
+        "weight": 0.1
+      }
+    ]
+  },
+  "workdir": "golden_results/open_drawer_then_pick/1776022484_85e970/workdir"
+}

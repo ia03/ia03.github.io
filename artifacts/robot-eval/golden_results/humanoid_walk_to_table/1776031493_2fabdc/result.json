@@ -1,0 +1,65 @@
+{
+  "task": "humanoid_walk_to_table",
+  "run_id": "1776031493_2fabdc",
+  "script": "goldens/humanoid_walk_to_table/solve.py",
+  "solve_exit_code": 0,
+  "timed_out": false,
+  "success": true,
+  "grader_info": {
+    "pelvis_xyz_after": [
+      0.39803568621254776,
+      0.04589735302286543,
+      0.25540068602925753
+    ],
+    "start_distance_from_origin": 0.0,
+    "checkpoint_hits": [
+      true,
+      true,
+      true
+    ],
+    "trace_samples": 1513,
+    "replay_steps": 1513,
+    "stable_trace_fraction": 1.0,
+    "distance_to_target": 0.18766347142330045,
+    "target_radius": 0.2,
+    "min_pelvis_z_during_sim": 0.24632487329233171,
+    "min_torso_up_during_sim": 0.8388387526492099,
+    "pelvis_z_threshold": 0.23,
+    "torso_up_threshold": 0.55,
+    "checkpoint_progress": 1.0,
+    "stability_progress": 1.0,
+    "distance_progress": 1.0,
+    "settle_posture_progress": 1.0,
+    "efficiency_progress": 1.0,
+    "progress_score": 1.0,
+    "score_method": "weighted_subscores",
+    "score_components": [
+      {
+        "name": "checkpoint_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "stability_progress",
+        "value": 1.0,
+        "weight": 0.25
+      },
+      {
+        "name": "distance_progress",
+        "value": 1.0,
+        "weight": 0.3
+      },
+      {
+        "name": "settle_posture_progress",
+        "value": 1.0,
+        "weight": 0.15
+      },
+      {
+        "name": "efficiency_progress",
+        "value": 1.0,
+        "weight": 0.05
+      }
+    ]
+  },
+  "workdir": "golden_results/humanoid_walk_to_table/1776031493_2fabdc/workdir"
+}

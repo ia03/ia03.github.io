@@ -1,0 +1,18 @@
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+saved attempt1_after_grasp: score=-1.2939 peg=[ 0.4769 -0.1037  0.4129] align=1.000 inserted=False
+saved attempt1_lift: score=-0.8570 peg=[0.5145 0.0412 0.4114] align=0.907 inserted=False
+AttemptResult(name='attempt1_lift', score=np.float64(-0.8570180712361144), peg_pos=array([0.51447527, 0.0411776 , 0.41136283]), align=0.9069738664374687, inserted=np.False_)
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+saved attempt2_after_grasp: score=-1.2939 peg=[ 0.4769 -0.1037  0.4129] align=1.000 inserted=False
+saved attempt2_lift: score=-0.7666 peg=[0.5277 0.0895 0.4114] align=0.900 inserted=False
+AttemptResult(name='attempt2_lift', score=np.float64(-0.7666405316050219), peg_pos=array([0.52765856, 0.08951334, 0.41136261]), align=0.9002595530403049, inserted=np.False_)
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+saved attempt3_after_grasp: score=-1.2939 peg=[ 0.4769 -0.1037  0.4129] align=1.000 inserted=False
+saved attempt3_lift: score=-0.7971 peg=[0.5363 0.1323 0.4114] align=0.850 inserted=False
+AttemptResult(name='attempt3_lift', score=np.float64(-0.7970753597183101), peg_pos=array([0.53626683, 0.1323361 , 0.41136901]), align=0.8497914975677557, inserted=np.False_)
+saved initial: score=-1.3560 peg=[ 0.47  -0.12   0.412] align=1.000 inserted=False
+saved attempt4_after_grasp: score=-1.2939 peg=[ 0.4769 -0.1037  0.4129] align=1.000 inserted=False
+saved attempt4_lift: score=-0.8515 peg=[0.532  0.1336 0.4114] align=0.815 inserted=False
+saved attempt4_side: score=-0.8515 peg=[0.532  0.1336 0.4114] align=0.815 inserted=False
+AttemptResult(name='attempt4_side', score=np.float64(-0.8514811562336231), peg_pos=array([0.53196388, 0.13357682, 0.41136282]), align=0.8150913434059059, inserted=np.False_)
+best AttemptResult(name='attempt2_lift', score=np.float64(-0.7666405316050219), peg_pos=array([0.52765856, 0.08951334, 0.41136261]), align=0.9002595530403049, inserted=np.False_)
